@@ -21,6 +21,9 @@ setup(
     author_email='ashwoods@gmail.com',
     packages=['monkeytranslate'],
     zip_safe=False,
+    install_requires=[
+        'django-appconf >= 0.4',
+    ],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
